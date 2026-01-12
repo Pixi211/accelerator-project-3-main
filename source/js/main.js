@@ -1,14 +1,14 @@
-import activateFAQAccordion from './scripts/activate-faq-accordion';
-import activateMenu from './scripts/activate-menu';
-import initHeroSwiper from './scripts/initialize-hero-swiper';
-import initNewsSwiper from './scripts/initialize-news-swiper';
-import initProgramsSwiper from './scripts/initialize-programs-swiper';
-import initReviewsSwiper from './scripts/initialize-reviews-swiper';
-import {activateModal} from './scripts/forms/activate-modal';
-import initModalFormValidation from './scripts/forms/validate-modal-form';
-import initModalDropdown from './scripts/forms/initialize-modal-dropdown';
-import initFormValidation from './scripts/forms/validate-form';
-import initFormDropdown from './scripts/forms/initialize-form-dropdown';
+import activateFAQAccordion from './scripts/activate-faq-accordion.js';
+import activateMenu from './scripts/activate-menu.js';
+import initHeroSwiper from './scripts/initialize-hero-swiper.js';
+import initNewsSwiper from './scripts/initialize-news-swiper.js';
+import initProgramsSwiper from './scripts/initialize-programs-swiper.js';
+import initReviewsSwiper from './scripts/initialize-reviews-swiper.js';
+import {activateModal} from './scripts/forms/activate-modal.js';
+import initModalFormValidation from './scripts/forms/validate-modal-form.js';
+import initModalDropdown from './scripts/forms/initialize-modal-dropdown.js';
+import initFormValidation from './scripts/forms/validate-form.js';
+import initFormDropdown from './scripts/forms/initialize-form-dropdown.js';
 
 document.addEventListener('DOMContentLoaded', activateMenu);
 document.addEventListener('DOMContentLoaded', initHeroSwiper);

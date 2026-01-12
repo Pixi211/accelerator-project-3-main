@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/grid';
+import { getCurrentDevice, getSlidesPerView } from './utils.js';
 
 
 function initNewsSwiper() {
@@ -106,16 +107,6 @@ function updatePagination(swiper) {
   });
 }
 
-function getCurrentDevice() {
-  if (window.matchMedia('(min-width: 1440px)').matches) {
-    return 'desktop';
-  } else if (window.matchMedia('(min-width: 768px)').matches) {
-    return 'tablet';
-  } else {
-    return 'mobile';
-  }
-}
-
 let originalSlideOrder = [];
 
 function reorderSlides() {
@@ -143,18 +134,6 @@ function reorderSlides() {
     const slide3 = slides[2];
 
     swiperWrapper.insertBefore(slide3, slide2);
-  }
-}
-
-function getSlidesPerView(device) {
-  switch (device) {
-    case 'desktop':
-      return 3;
-    case 'tablet':
-      return 2;
-    case 'mobile':
-    default:
-      return 1;
   }
 }
 

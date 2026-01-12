@@ -184,11 +184,11 @@
   width: min-content;
 }
 
-.navigation-menu__item>.navigation-menu__link {
+.navigation-menu__item > .navigation-menu__link {
   position: relative;
 }
 
-.navigation-menu__item--sub>.navigation-menu__link {
+.navigation-menu__item--sub > .navigation-menu__link {
   position: relative;
 
   &::before {
@@ -222,7 +222,7 @@
   }
 }
 
-.navigation-menu__item--sub>.navigation-menu__link--active {
+.navigation-menu__item--sub > .navigation-menu__link--active {
   opacity: 1;
 
   &::before {

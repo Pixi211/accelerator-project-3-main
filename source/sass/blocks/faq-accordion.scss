@@ -193,6 +193,11 @@
   display: block;
 }
 
+.faq-accordion__item--show {
+  background-color: $background-accent;
+}
+
+
 .faq-accordion__item--show button {
   background-color: $background-accent;
   color: $on-dark-text-color;
@@ -252,8 +257,8 @@
   }
 }
 
-.faq-accordion__item--show:hover>button,
-.faq-accordion__item--show:focus>button {
+.faq-accordion__item--show:hover > button,
+.faq-accordion__item--show:focus > button {
   &::before {
     background-color: transparent;
     outline: 1px solid $background-extra;
@@ -265,8 +270,8 @@
   }
 }
 
-.faq-accordion__item--show>button:hover,
-.faq-accordion__item--show>button:focus {
+.faq-accordion__item--show > button:hover,
+.faq-accordion__item--show > button:focus {
   background-color: $background-accent;
 
   &::before {
@@ -278,7 +283,7 @@
   }
 }
 
-.faq-accordion__item--show:active>button {
+.faq-accordion__item--show:active > button {
   &::before {
     background-color: $background-accent;
   }
@@ -301,7 +306,7 @@
   }
 }
 
-.faq-accordion__item--active:active>button {
+.faq-accordion__item--active:active > button {
   &::before {
     background-color: $background-accent;
   }

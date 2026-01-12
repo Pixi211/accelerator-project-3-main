@@ -2,6 +2,7 @@ import Swiper from 'swiper';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { getCurrentDevice } from './utils.js';
 
 function updateBottomSpacing() {
   const activeSlide = document.querySelector('.swiper-slide-active');
@@ -47,16 +48,6 @@ function initHeroSwiper() {
     updateBottomSpacing();
   });
   window.addEventListener('load', updateBottomSpacing);
-}
-
-function getCurrentDevice() {
-  if (window.matchMedia('(min-width: 1440px)').matches) {
-    return 'desktop';
-  } else if (window.matchMedia('(min-width: 768px)').matches) {
-    return 'tablet';
-  } else {
-    return 'mobile';
-  }
 }
 
 function getBottomPadding() {
