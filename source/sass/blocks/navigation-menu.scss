@@ -60,7 +60,7 @@
 
   &::after {
     background-color: $background-accent;
-    mask-image: url("/__spritemap#sprite-menu-close-icon-view"); //url("/__spritemap#sprite-menu-burger-view");url("../../img/sprite/menu-close-icon.svg");
+    mask-image: url("/__spritemap#sprite-menu-close-icon-view");
     background-repeat: no-repeat;
     right: 16px;
     width: 18px;

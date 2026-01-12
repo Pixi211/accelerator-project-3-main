@@ -1,6 +1,5 @@
 // Vendor
 // ---------------------------------
-
 @import "vendor/normalize";
 
 
@@ -19,3 +18,43 @@
 @import "./blocks/navigation-menu.scss";
 @import "./blocks/hero.scss";
 @import "./blocks/hero-slide.scss";
+
+@import "./blocks/about.scss";
+@import "./blocks/about-info.scss";
+@import "./blocks/about-goal.scss";
+@import "./blocks/about-features.scss";
+
+@import "./blocks/programs.scss";
+@import "./blocks/programs-slide.scss";
+
+@import "./blocks/grant.scss";
+@import "./blocks/grant-requirements.scss";
+
+@import "./blocks/news.scss";
+@import "./blocks/news-swiper.scss";
+@import "./blocks/news-slide.scss";
+@import "./blocks/news-tabs.scss";
+@import "./blocks/news-pagination.scss";
+
+@import "./blocks/faq.scss";
+@import "./blocks/faq-accordion.scss";
+
+@import "./blocks/reviews.scss";
+@import "./blocks/reviews-slide.scss";
+@import "./blocks/review-author.scss";
+@import "./blocks/program-info.scss";
+
+@import "./blocks/contacts.scss";
+@import "./blocks/contact.scss";
+
+@import "./blocks/subscription.scss";
+@import "./blocks/subscription-form.scss";
+@import "./blocks/subscription-dropdown.scss";
+
+@import "./blocks/footer.scss";
+@import "./blocks/footer-links.scss";
+@import "./blocks/socials.scss";
+
+@import "./blocks/modal";
+@import "./blocks/modal-form";
+@import "./blocks/modal-dropdown";

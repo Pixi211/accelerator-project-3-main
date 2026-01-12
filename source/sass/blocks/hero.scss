@@ -23,32 +23,11 @@
   }
 }
 
-.hero__header {
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 400;
-  color: $extra-text-color;
-
-  @media (min-width: $tablet-width) {
-    font-size: 25px;
-    line-height: 25px;
-    margin: 0 0 5px;
-  }
-
-  @media (min-width: $desktop-width) {
-    font-size: 35px;
-    line-height: 35px;
-    margin: 0;
-  }
-}
-
-
 .hero__swiper {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
-
 
 .hero .hero-swiper-container__buttons {
   display: flex;
